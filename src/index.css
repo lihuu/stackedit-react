@@ -11,16 +11,35 @@ body {
   line-height: 1.67;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff
 }
 
 h1{
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 h2{
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.8em 0;
+  line-height: 1.33;
+  font-weight: bold;
+}
+
+h1:after, h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: .33em;
+  border-bottom: 1px solid hsla(0, 0%, 50%, .33);
 }
 
 h3{
